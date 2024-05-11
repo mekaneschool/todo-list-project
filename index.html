@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>todo list project</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <button class="todo-list-text" onclick="alert('paragraph can used as button')" >Todo list</button>
+  <p>Todo list</p>
+  <div class="todoList-container">
+    <input type="text" class="todoInput" placeholder="Todo name" keydown="entered(event.key)" required>
+    <input type="date" class="js-date" required>
+    <button id="add" onclick="display()">Add</button>
+
+  </div>
+  <div class="todoListDisplay">
+    
+  </div>
+  <script src="todo.js"></script>
+</body>
+</html>
